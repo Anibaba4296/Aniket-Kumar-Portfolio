@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body class="backGroundImg">
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div class="user">
+            <img src="./img/aniket_img.png" alt=" Aniket Kumar">
+            <h3 class="name">Aniket Kumar</h3>
+            <p class="post">Front-end developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>I'M <span class="autotyped"></span></h1>
+        <p>A passionate engineering student with a keen interest in web development and creating impactful digital experiences. I am currently pursuing my bachelor's at Lovely Professional University, where I am gaining a strong foundation in engineering
+            principles and exploring the fascinating world of web development.</p>
+        <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>About</span> Me </h1>
+
+        <div class="row">
+
+            <div class="info">
+
+                <button class="btn" onclick="toggleAbout()"> Read about me</button>
+                <button class="btn" onclick="readAbout()"> Hear about me</button>
+                <button class="btn" onclick="skills()"> My skills</button>
+                <a href="https://drive.google.com/file/d/1kMOa4Yd0VCf9Vl3q1LZguVy5WX6-q2g5/view?usp=sharing"><button class="btn"> View CV <i class="fas fa-download"></i> </button></a>
+                <div class="about-para" id="about-para2">
+                    <p id="data">Hello, I'm Aniket Kumar, a passionate engineering student with a keen interest in web development and creating impactful digital experiences. I am currently pursuing my bachelor's at Lovely Professional University, where I am gaining
+                        a strong foundation in engineering principles and exploring the fascinating world of web development.<br><br>Throughout my academic journey, I have been exposed to a wide range of engineering concepts, which has enhanced my analytical
+                        thinking, problem-solving abilities, and attention to detail. I have also developed a solid understanding of programming languages like HTML, CSS, and JavaScript, which I have been applying to build interactive websites and user
+                        interfaces.
+                        <br><br>As an engineering student, I am driven by a constant desire to learn and grow. I actively seek out opportunities to expand my skill set and stay updated with the latest trends and technologies in the field of web development.
+                        <br><br>In addition to technical skills, I possess strong interpersonal and teamwork abilities. Throughout my academic projects, I have collaborated with fellow students from diverse backgrounds, which has honed my communication
+                        skills, adaptability, and collaborative mindset. I believe that effective collaboration and communication are vital for successful project outcomes. My goal is to leverage my engineering background and passion for web development
+                        to create seamless and visually appealing user experiences. I am particularly interested in utilizing modern front-end frameworks and libraries to build responsive websites that cater to the evolving needs of users.
+                    </p>
+                </div>
+                <div id="skill">
+                    <h5 class="title">Programming languages</h5>
+                    <div class="socialMedia">
+                        <img class="contactImg" src="./img/cLang.png" width="100px" title="C language">
+                        <img class="contactImg" src="./img/cppLang.png" width="100px" title="C++ language">
+                        <img class="contactImg" src="./img/javaLang.png" width="100px" title="Java language">
+                    </div>
+
+                    <h5 class="title">Web technologies</h5>
+                    <div class="socialMedia">
+                        <img class="contactImg" src="./img/htmlLang.jpg" width="180px" title="HTML">
+                        <img class="contactImg" src="./img/cssLang.png" width="120px" title="CSS">
+                        <img class="contactImg" src="./img/jsLang.png" width="120px" title="JavaScript">
+                        <img class="contactImg" src="./img/reactLang.png" width="120px" title="React js">
+                        <img class="contactImg" src="./img/nodeLang.png" width="120px" title="Node js">
+                    </div>
+                    <div class="socialMedia">
+                        <img class="contactImg" src="./img/git.png" width="180px" title="Git">
+                        <img class="contactImg" src="./img/gitHub.png" width="120px" title="GitHub">
+                        <img class="contactImg" src="./img/wordpress.png" width="120px" title="Wordpress">
+                        <img class="contactImg" src="./img/mongodb.png" width="120px" title="MongoDB">
+                        <img class="contactImg" src="./img/bootstrap.png" width="120px" title="Bootstrap">
+                    </div>
+                    <h5 class="title">Operating system</h5>
+                    <div class="socialMedia">
+                        <img class="contactImg" src="./img/windows.png" width="250px" title="Windows">
+                        <img class="contactImg" src="./img/linux.png" width="150px" title="Linux">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> My <span>Education</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>10th standard</h3>
+                <p>Jindal Vidya Mandir, Bellary <br> Central Board of Secondary Education <br> Secured overall 68%</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>12th standard</h3>
+                <p>Nandi PU College, Bellary<br> Karnataka Board of the Pre-University Education <br> secured overall 88%</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020 - present</span>
+                <h3>Bachelor of Technology</h3>
+                <p>Lovely Professional University, Punjab <br> Current CGPA - 7.88 out of 10</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- projects section starts  -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> My <span>Projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="https://anibaba4296.github.io/SportsClubSite.com/" title="click to open site" onmouseenter="Details1()">
+                    <img src="./img/PRJCT_1.jpeg" alt=" Static sports website">
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="https://github.com/Anibaba4296/onlineFirSystem/" title="click to open site" onmouseenter="Details2()">
+                    <img src="./img/PRJCT_2.jpg" alt=" online FIR system">
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="https://anibaba4296.github.io/Shopping_site.anibaba/" title="click to open site" onmouseenter="Details3()">
+                    <img src="./img/PRJCT_3.jpg" alt=" Static sports website">
+                </a>
+            </div>
+        </div>
+        <div class="projectDetails">
+            <p id="prjdtls">Project details ....</p>
+        </div>
+
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Connect With</span> Me @</h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h5 class="title">Social media platforms</h5>
+                <div class="socialMedia">
+                    <a href="https://www.instagram.com/mr.aniket___singh/"><img class="contactImg" src="./img/instgrm.png" width="100px" title="Instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100011164900693"><img class="contactImg" src="./img/facebook.png" width="100px" title="Facebook"></a>
+                    <a href="https://www.linkedin.com/in/aniket-kumar-ak4/"><img class="contactImg" src="./img/linkedIn.png" width="100px" title="LinkedIn"></a>
+                    <a href="https://twitter.com/AniketK35401496"><img class="contactImg" src="./img/twitter.png" width="100px" title="Twitter"></a>
+                </div>
+
+                <h5 class="title">Technical platforms</h5>
+                <div class="socialMedia">
+                    <a href="https://leetcode.com/Anibaba4296/"><img class="contactImg" src="./img/leetCode.png" width="100px" title="LeetCode"></a>
+                    <a href="https://www.codingninjas.com/studio/profile/Aniket4296"><img class="contactImg" src="./img/codingNinja.jpg" width="100px" title="Coding Ninjas"></a>
+                    <a href="https://github.com/Anibaba4296"><img class="contactImg" src="./img/gitHub.png" width="100px" title="GitHub"></a>
+                    <a href="https://www.hackerrank.com/anibaba"><img class="contactImg" src="./img/HackerRank.png" width="100px" title="HackerRank"></a>
+                    <a href="https://www.codechef.com/users/regiusdevelope"><img class="contactImg" src="./img/codechef.jpg" width="100px" title="codeChef"></a>
+                    <a href="https://auth.geeksforgeeks.org/user/regiusdeveloperclub"><img class="contactImg" src="./img/gfg.png" width="100px" title="GeeksForGeeks"></a>
+                </div>
+
+                <h5 class="title">Write to me @</h5>
+                <div class="socialMedia">
+                    <a href="mailto:aniketkumar4296@gmail.com"><img class="contactImg" src="./img/Gmail.png" width="100px" title="send e-mail"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- This is for auto typing code, student etc.... -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".autotyped", {
+            strings: ["Student", "Web developer", "Footballer"],
+            typeSpeed: 150,
+            backSped: 150,
+            loop: true
+        })
+    </script>
+
+</body>
+
+</html>
