@@ -217,7 +217,12 @@ header .navbar ul li a:hover {
 }
 
 .about .row .info #skill {
+    /* display: flex; */
     display: none;
+}
+
+.social {
+    text-align: center;
 }
 
 .education .box-container {
@@ -339,9 +344,8 @@ header .navbar ul li a:hover {
 }
 
 .socialMedia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    text-align: center;
     padding: 2em;
 }
 
